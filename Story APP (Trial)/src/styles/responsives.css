@@ -1,0 +1,62 @@
+@media screen and (width > 1000px) {
+    /* Responsive Navigation */
+    .navigation-drawer {
+      min-height: auto;
+      width: auto;
+      padding: 0;
+      background-color: transparent;
+      flex-direction: row;
+      justify-content: space-between;
+      position: static;
+      box-shadow: none;
+      transform: translateX(0);
+    }
+    .nav-list {
+      flex-direction: row;
+    }
+    .nav-list li a {
+      display: inline-block;
+    }
+    .nav-list li button {
+      width: fit-content;
+    }
+    .drawer-button {
+      display: none;
+    }
+}
+@media screen and  (max-width: 1024px) {
+  .stories-list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media screen and  (max-width: 900px) {
+  .stories-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and  (max-width: 768px) {
+  .stories-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and  (max-width: 480px) {
+  .stories-list {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (width < 640px){
+  .camera-tools {
+    flex-direction: column;
+    gap:.5rem;
+  }
+}
+@media screen and (width < 480px){
+  .documentation-buttons, .form-container .option-button, .detail-info .info-grid {
+    flex-direction: column;
+    gap: .5rem;
+  }
+  .form-container .option-button span, .form-container .option-button a.link {
+    width: 100%;
+    max-width: 100%;
+  }
+}

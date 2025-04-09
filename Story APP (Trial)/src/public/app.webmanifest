@@ -1,0 +1,151 @@
+{
+  "id": "/?source=pwa#/",
+  "scope": "/",
+  "start_url": "/?source=pwa#/",
+  "name": "Story APP",
+  "short_name": "Story APP",
+  "description": "Story APP - Curhat Ala Generasi Z",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#2A48D7",
+  "icons": [
+    {
+      "src": "images/icons/icon-x144.png",
+      "type": "image/png",
+      "sizes": "144x144",
+      "purpose": "any"
+    },
+    {
+      "src": "images/icons/maskable-icon-x48.png",
+      "type": "image/png",
+      "sizes": "48x48",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/icons/maskable-icon-x72.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/icons/maskable-icon-x96.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/icons/maskable-icon-x128.png",
+      "type": "image/png",
+      "sizes": "128x128",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/icons/maskable-icon-x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/icons/maskable-icon-x384.png",
+      "type": "image/png",
+      "sizes": "384x384",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/icons/maskable-icon-x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+	"screenshots": [
+    {
+      "src": "images/screenshots/story-app-1.png",
+      "sizes": "1492x839",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "images/screenshots/story-app-2.png",
+      "sizes": "1920x839",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "images/screenshots/story-app-3.png",
+      "sizes": "1920x839",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "images/screenshots/story-app-4.png",
+      "sizes": "1920x839",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "images/screenshots/story-app-5.png",
+      "sizes": "1920x839",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "images/screenshots/story-app-6.png",
+      "sizes": "416x710",
+      "type": "image/png",
+      "form_factor": "Narrow"
+    },
+    {
+      "src": "images/screenshots/story-app-7.png",
+      "sizes": "416x710",
+      "type": "image/png",
+      "form_factor": "Narrow"
+    },
+    {
+      "src": "images/screenshots/story-app-8.png",
+      "sizes": "416x710",
+      "type": "image/png",
+      "form_factor": "Narrow"
+    },
+    {
+      "src": "images/screenshots/story-app-9.png",
+      "sizes": "416x710",
+      "type": "image/png",
+      "form_factor": "Narrow"
+    },
+    {
+      "src": "images/screenshots/story-app-10.png",
+      "sizes": "416x710",
+      "type": "image/png",
+      "form_factor": "Narrow"
+    }
+	],
+  "shortcuts": [
+    {
+      "name": "Story Baru",
+      "short_name": "Baru",
+      "description": "Membuat story baru.",
+      "url": "/?source=pwa#/add",
+      "icons": [
+        {
+          "src": "images/icons/add-x192.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Story Tersimpan",
+      "short_name": "Tersimpan",
+      "description": "Lihat daftar story tersimpan.",
+      "url": "/?source=pwa#/bookmark",
+      "icons": [
+        {
+          "src": "images/icons/bookmark-x192.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
